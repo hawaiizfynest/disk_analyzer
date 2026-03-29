@@ -29,6 +29,7 @@ A lightweight Windows GUI app that shows you **exactly** what's eating your disk
 
 ## Features
 
+### 💾 Disk Space Tab
 - **Real-time scan** — walks any drive or folder recursively, showing progress as it goes
 - **Interactive treemap** — proportional visual blocks; hover for details, click to highlight
 - **Sortable table** — click any column to sort by size, name, type, or item count
@@ -37,7 +38,19 @@ A lightweight Windows GUI app that shows you **exactly** what's eating your disk
 - **Explorer integration** — double-click any row to open it in Windows Explorer
 - **Right-click menu** — copy path or open in Explorer
 - **Stop button** — abort a scan at any time
-- **Zero dependencies** — uses only Python's built-in `tkinter`
+
+### 📦 Installed Programs Tab
+- **Registry scan** — reads all installed programs from the Windows registry
+- **Size breakdown** — shows how much space each program uses (where reported)
+- **Programs treemap** — visual map of space usage across installed apps
+- **Uninstall launcher** — select a program and click Uninstall to launch its uninstaller
+- **Sortable** — sort by name, publisher, size, version, or install date
+- **Filter** — search by name, publisher, or install location
+- **Open location** — double-click to open the program's install folder in Explorer
+
+### General
+- **Zero dependencies** — uses only Python's built-in `tkinter` and `winreg`
+- **Threaded** — UI never freezes during scanning
 
 ## Requirements
 
