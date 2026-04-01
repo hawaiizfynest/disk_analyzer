@@ -60,7 +60,7 @@ A lightweight Windows GUI app that shows you **exactly** what's eating your disk
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/disk-analyzer.git
+git clone https://github.com/hawaiizfynest/disk-analyzer.git
 cd disk-analyzer
 python disk_analyzer.py
 ```
